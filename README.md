@@ -7,23 +7,28 @@
 
 ## How To Deploy Asterix
 
+- [Heroku](#Heroku-Deploy)
+- [Railway](#Railway-Deploy)
+- [Qovery](#Deploy-Qovery)
+- [Termux](#Deploy-On-Termux)
+
 # Tutorial 
  - Railway Deploy Comming Soon.
  - Heroku Comming Soon.
 
-### Heroku Deploy
+## Heroku Deploy
 
   - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamAsterix/AsterixUB)
 
-### Railway Deploy
+## Railway Deploy
 
  - [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/-U4IQf?referralCode=pmqzRk)
 
-###  Deploy On Qovery
+##  Deploy Qovery
 
  - [![Deploy](https://img.shields.io/badge/Deploy-Qovery-purple)](https://www.qovery.com/)
 
-### Deploy On Termux
+## Deploy On Termux
 
 <details>
     <summary><b>1. Deploy on Termux</b></summary>
