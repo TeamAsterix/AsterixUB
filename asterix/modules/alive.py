@@ -32,7 +32,7 @@ async def alive_handler(_, m: Message):
 
 		alive_msg = f"\n"
 		if app.UserBio():
-			alive_msg += f"⦿ 'I Am Running Perfect.'\n\n"
+			alive_msg += f"⦿ I Am Running Perfect.\n\n"
 		alive_msg += f"⟜ **Owner:** {app.UserMention()}\n"
 		alive_msg += f"⟜ **Asterix:** `{app.userbot_version}`\n"
 		alive_msg += f"⟜ **Python:** `{app.python_version}`\n"
