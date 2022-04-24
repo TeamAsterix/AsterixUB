@@ -77,10 +77,10 @@ class Config(object):
 # --------------------
 	# this bio will be shown in '/help' menu (default: official bio from bot) 
 	BOT_BIO = os.getenv("BOT_BIO")
-	# your assistants custom name (default: NORA)
-	BOT_NAME = os.getenv("BOT_NAME", "NORA")
+	# your assistants custom name (default: Kushina)
+	BOT_NAME = os.getenv("BOT_NAME", "Kushina")
 	# your assistants alive pic (optional)
-	BOT_PIC = os.getenv("BOT_PIC", "https://telegra.ph/file/48f5dc15d51ea7f721275.jpg")
+	BOT_PIC = os.getenv("BOT_PIC", "https://telegra.ph/file/3930fb44de59f65849f5b.jpg")
 	# provide this if bot fails to get username of bot (optional)
 	BOT_USERNAME = os.getenv("BOT_USERNAME")
 	# telegram id of bot if failed to get automatically (optional)
