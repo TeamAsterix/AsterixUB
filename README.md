@@ -10,7 +10,6 @@
 [![PR Open](https://img.shields.io/github/issues-pr/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://github.com/TeamAsterix/AsterixUB/pulls)
 [![PR Closed](https://img.shields.io/github/issues-pr-closed/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://github.com/TeamAsterix/AsterixUB/pulls?q=is:closed)
 [![GitHub contributors](https://img.shields.io/github/contributors/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://GitHub.com/TeamAsterix/AsterixUB/graphs/contributors/)
-
 [![GitHub forks](https://img.shields.io/github/forks/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://github.com/TeamAsterix/AsterixUB/fork)
 [![GitHub stars](https://img.shields.io/github/stars/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://github.com/TeamAsterix/AsterixUB/stargazers)
 
