@@ -1,4 +1,4 @@
-git+https://github.com/Ryoishin/pyrogram
+git+https://github.com/beastzx18/pyrogram
 pytube
 telegraph
 heroku3
