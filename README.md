@@ -1,17 +1,7 @@
 # Asterix UserBot
 * A Powerful Telegram userbot based on Pyrogram.
 
-[![Alphonse logo](https://telegra.ph/file/2167f38bae9c10c01ecf0.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTeamAsterix%2FAsterixUB%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2FTeamAsterix%2FAsterixUB)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green?&style=flat-square)](https://GitHub.com/TeamAsterix/AsterixUB/graphs/commit-activity) 
-![Repo Size](https://img.shields.io/github/repo-size/TeamAsterix/AsterixUB?&style=flat-square&logo=github)
-[![GitHub license](https://img.shields.io/github/license/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://github.com/TeamAsterix/AsterixUB/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://github.com/TeamAsterix/AsterixUB/issues)
-[![PR Open](https://img.shields.io/github/issues-pr/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://github.com/TeamAsterix/AsterixUB/pulls)
-[![PR Closed](https://img.shields.io/github/issues-pr-closed/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://github.com/TeamAsterix/AsterixUB/pulls?q=is:closed)
-[![GitHub contributors](https://img.shields.io/github/contributors/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://GitHub.com/TeamAsterix/AsterixUB/graphs/contributors/)
-[![GitHub forks](https://img.shields.io/github/forks/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://github.com/TeamAsterix/AsterixUB/fork)
-[![GitHub stars](https://img.shields.io/github/stars/TeamAsterix/AsterixUB?&style=flat-square&logo=github)](https://github.com/TeamAsterix/AsterixUB/stargazers)
+[![Alphonse/Asterix logo](https://telegra.ph/file/2167f38bae9c10c01ecf0.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTeamAsterix%2FAsterixUB%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2FTeamAsterix%2FAsterixUB)
 
 
 
