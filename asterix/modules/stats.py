@@ -1,32 +1,28 @@
-from asterix import app
-from asterix.helpers import gen
 from pyrogram.types import Message
 
-
-
+from asterix import app
+from asterix.helpers import gen
 
 app.CMD_HELP.update(
-	{"stats": (
-		"stats",
-		{
-		"stats" : "Get information about how many groups/channels/users you have."
-		}
-		)
-	}
+    {
+        "stats": (
+            "stats",
+            {"stats": "Get information about how many groups/channels/users you have."},
+        )
+    }
 )
 
 
-
-@app.on_message(gen("stats", allow = ["sudo"]))
+@app.on_message(gen("stats", allow=["sudo"]))
 async def dialogstats_handler(_, m: Message):
-	try:
-		m = await app.send_edit(m, "Getting stats . . .", text_type=["mono"])
+    try:
+        m = await app.send_edit(m, "Getting stats . . .", text_type=["mono"])
 
-		bot = 0
-		user = 0
-		group = 0
-		channel = 0
-		stat_format = """
+        bot = 0
+        user = 0
+        group = 0
+        channel = 0
+        stat_format = """
 		• **STATS FOR:** {}
 
 		🤖 • **BOTS:** {}
@@ -35,16 +31,18 @@ async def dialogstats_handler(_, m: Message):
 		⚙️ • **CHANNELS:** {}
 		"""
 
-		async for x in app.iter_dialogs():
-			if x.chat.type == "channel":
-				channel += 1
-			if x.chat.type == "bot":
-				bot += 1
-			if x.chat.type in ("supergroup", "group"):
-				group += 1
-			if x.chat.type == "private":
-				user += 1
+        async for x in app.iter_dialogs():
+            if x.chat.type == "channel":
+                channel += 1
+            if x.chat.type == "bot":
+                bot += 1
+            if x.chat.type in ("supergroup", "group"):
+                group += 1
+            if x.chat.type == "private":
+                user += 1
 
-		await app.send_edit(m, stat_format.format(app.UserMention(), bot, user, group, channel))
-	except Exception as e:
-		await app.error(m, e)
+        await app.send_edit(
+            m, stat_format.format(app.UserMention(), bot, user, group, channel)
+        )
+    except Exception as e:
+        await app.error(m, e)

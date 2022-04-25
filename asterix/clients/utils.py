@@ -1,50 +1,52 @@
-import time
+import logging
 import platform
+import time
 
-import logging 
-from config import Config
-from telegraph import Telegraph
-from asterix.pyrogramx.methods import Methods
 from pyrogram import __version__ as pyro_version
+from telegraph import Telegraph
+
 from asterix.database import Database
 from asterix.helpers import Helpers
-
-
+from asterix.pyrogramx.methods import Methods
+from config import Config
 
 
 class Utils(Methods, Config, Database, Helpers):
-	# versions /
+    # versions /
 
-	userbot_version = "v.0.0.1"
-	assistant_version = "v.0.0.1"
-	python_version = str(platform.python_version())
-	pyrogram_version = str(pyro_version)
+    userbot_version = "v.0.0.1"
+    assistant_version = "v.0.0.1"
+    python_version = str(platform.python_version())
+    pyrogram_version = str(pyro_version)
 
-	# containers /
+    # containers /
 
-	CMD_HELP = {}
+    CMD_HELP = {}
 
-	# owner details /
+    # owner details /
 
-	owner_name = "🆂нιναηѕн 🇮🇳[Oғғʟιɴᴇ]"
-	owner_id = 1986676404
-	owner_username = "@Ryoishin"
+    owner_name = "🆂нιναηѕн 🇮🇳[Oғғʟιɴᴇ]"
+    owner_id = 1986676404
+    owner_username = "@Ryoishin"
 
-	# other /
+    # other /
 
-	Repo = "https://github.com/TeamAsterix/AsterixUB.git"
-	StartTime = time.time()
+    Repo = "https://github.com/TeamAsterix/AsterixUB.git"
+    StartTime = time.time()
 
-	# debugging /
+    # debugging /
 
-	logging.getLogger("pyrogram.syncer").setLevel(logging.CRITICAL) # turn off pyrogram logging
-	logging.getLogger("pyrogram").setLevel(logging.CRITICAL)
-	
-	logging.basicConfig(format="%(asctime)s %(message)s")
-	log = logging.getLogger("———")
+    logging.getLogger("pyrogram.syncer").setLevel(
+        logging.CRITICAL
+    )  # turn off pyrogram logging
+    logging.getLogger("pyrogram").setLevel(logging.CRITICAL)
 
-	# telegraph /
+    logging.basicConfig(format="%(asctime)s %(message)s")
+    log = logging.getLogger("———")
 
-	telegraph = Telegraph()
-	telegraph.create_account(short_name=Config.TL_NAME if Config.TL_NAME else "Asterix Userbot")
+    # telegraph /
 
+    telegraph = Telegraph()
+    telegraph.create_account(
+        short_name=Config.TL_NAME if Config.TL_NAME else "Asterix Userbot"
+    )

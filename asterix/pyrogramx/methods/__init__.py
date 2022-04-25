@@ -1,9 +1,5 @@
 from .decorators import Decorators
 
 
-
-
-class Methods(
-	Decorators
-):
-	pass
+class Methods(Decorators):
+    pass
