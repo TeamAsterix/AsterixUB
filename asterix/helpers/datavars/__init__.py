@@ -1,13 +1,7 @@
-from .botconfig import BotConfig, BOTDV
-from .otherconfig import OtherConfig, OTHERDV
-from .userconfig import UserConfig, USERDV
+from .botconfig import BOTDV, BotConfig
+from .otherconfig import OTHERDV, OtherConfig
+from .userconfig import USERDV, UserConfig
 
 
-
-
-class DataVars(
-	BotConfig,
-	OtherConfig,
-	UserConfig
-	):
-	DVLIST = BOTDV + OTHERDV + USERDV
+class DataVars(BotConfig, OtherConfig, UserConfig):
+    DVLIST = BOTDV + OTHERDV + USERDV

@@ -1,9 +1,5 @@
 from .alertuser import AlertUser
 
 
-
-
-class Decorators(
-	AlertUser
-):
-	pass
+class Decorators(AlertUser):
+    pass

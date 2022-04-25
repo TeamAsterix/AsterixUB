@@ -1,6 +1,6 @@
 class Strings(object):
-	def stat_string(self):
-		return f"""
+    def stat_string(self):
+        return f"""
 			**Dex:** Stats
 
 			**Location:** /home/stats
@@ -14,10 +14,8 @@ class Strings(object):
 			**User Bio:** {self.UserBio()}
 			"""
 
-
-
-	def closed_menu_string(self):
-		return f"""
+    def closed_menu_string(self):
+        return f"""
 			Welcome to Asterix World.
 			This is your Helpdex, Tap on open button to get more buttons which will help you to understand & operate your userbot & assistant.
 
