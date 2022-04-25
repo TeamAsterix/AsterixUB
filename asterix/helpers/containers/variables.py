@@ -4,7 +4,7 @@ class Variables(object):
 
 	# assistant
 	assistant_name = "Kushina"
-	assistant_age = "2"
+	assistant_age = "18"
 	assistant_gender = "Female"
 
 	# userbot
