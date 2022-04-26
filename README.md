@@ -1,5 +1,5 @@
 # Asterix UserBot
-* A Powerful Telegram userbot based on Pyrogram.
+* A Powerful Telegram userbot+assistant based on Pyrogram.
 
 [![Alphonse/Asterix logo](https://telegra.ph/file/2167f38bae9c10c01ecf0.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTeamAsterix%2FAsterixUB%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2FTeamAsterix%2FAsterixUB)
 [![](https://img.shields.io/badge/Asterix-v0.0.1-red)](#)
