@@ -1,4 +1,4 @@
-/* module tdlight.java {
+// module tdlight.java {
 	requires tdlight.api;
 	requires org.reactivestreams;
 	requires org.slf4j;
@@ -11,4 +11,4 @@
 	exports it.tdlight.common.utils;
 	exports it.tdlight.common.internal;
 	exports it.tdlight.client;
-}/*
+}//
