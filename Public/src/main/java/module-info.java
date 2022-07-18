@@ -1,4 +1,4 @@
-/** module tdlight.java {
+/* module tdlight.java {
 	requires tdlight.api;
 	requires org.reactivestreams;
 	requires org.slf4j;
